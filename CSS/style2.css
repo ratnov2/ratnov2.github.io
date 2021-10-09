@@ -7,6 +7,7 @@ body{
   color:#727BBA;
 }
 .header{
+  z-index: 1000;
   height: 94px;
   background-color:#727BBA;
   display: flex;
@@ -147,7 +148,7 @@ position: absolute;
   margin-bottom: 10px;
   position: relative;
   left:-81px;
-  width: 230px;
+  width: 270px;
   height: 30px;
   display: flex;
   cursor: pointer;
@@ -162,6 +163,9 @@ position: absolute;
   height: 20px;
   margin-bottom:20px;
   transform:translateY(-0px)
+}
+.prost a{
+  font-size: 17px;
 }
 .r3434 li:hover{
   background-color: #727BBA;
@@ -184,6 +188,7 @@ position: absolute;
   width: 200px;
   z-index: 1000;
 }
+
 .prkg4::after{
   pointer-events: none;
   content:"";
@@ -243,10 +248,26 @@ h1{
   display: flex;
   justify-content:center;
 }
+.display_range li{
+  border: 1px solid black;
+  cursor: pointer;
+  margin-left: 30px;
+  width: 120px;
+}
+
+.display_range p{
+  margin-top: 13px;
+  color:#8990C6;
+  height: 10px;
+}
+
 .display_range img{
 border:2px solid black;
   width: 50px;
   height: 50px;
+}
+.display_range_plitka p:last-child{
+  color:#7a4009;
 }
 .pr{
   display: flex;
@@ -259,6 +280,14 @@ border:2px solid black;
 
 .jsNoDisplay{
   display: none;
+}
+.proRoader{
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: 100%;
+  min-width: 600px;
 }
 .pob_accommodation{
   border: 2px solid black;
@@ -282,13 +311,16 @@ border:2px solid black;
 .pob_accommodation_cards_1{
   border: 2px solid black;
   display: flex;
-  margin-left: 100px;
+  margin-top: 20px;
+  margin-left: 96px;
+  margin-right: auto;
   width: 100px;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
   flex-direction: column;
   cursor:pointer;
+
 }
 .pob_accommodation_content_gost_cards{
   margin-top: 100px;
@@ -309,6 +341,137 @@ border:2px solid black;
 }
 .glass2_2{
   margin-left: 50px;
+}
+.spisok{
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  background-color: #F8F8F8;
+  flex-wrap: wrap;
+  flex-direction:column;
+}
+.spisok2{
+  align-items:center;
+  min-height: 100px;
+  width: 100% !important;
+  max-width: 1100px !important;
+  min-width: 500px;
+  flex-direction: row;
+  border:none;
+  border-bottom: 1px solid #E2E2E3;
+  justify-content:space-between;
+}
+
+.spisok2 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+.spisok2 .img_text{
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+}
+.img_text p{
+  margin-left: 15px;
+}
+.prom_head{
+  display: none;
+}
+.spisok  .prom_head{
+  color:black;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  justify-content:space-between;
+  min-width: 500px;
+  border-bottom: 1px solid #E2E2E3;
+}
+.spisok  .prom_head p:first-child{
+  margin-left: 75px;
+}
+.spisok  .prom_head p:nth-child(2){
+  margin-right: 95px;
+}
+.spisok  .prom_head p:last-child{
+  margin-right: 75px;
+}
+.map_nav{
+  margin-right: 10px;
+}
+footer{
+  margin-top: 100px;
+  background-color: #0E0E0E;
+  height: 500px;
+}
+.footer_text{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content:space-between;
+  max-width: 600px;
+  width: 100%;
+}
+.footer_text_1{
+  color:#F3F4F4;
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 60px;
+}
+.footer_text_1 ul{
+  opacity: 1;
+  margin-top:10px;
+}
+.footer_text li{
+  width: 200px;
+  text-align: center;
+}
+.footer_text_1 ul li{
+  margin-top: 10px;
+  opacity: 1;
+  font-weight: 100;
+  font-size: 18px;
+  color:#8996A0;
+}
+.bottom_text{
+  display: flex;
+}
+.bottom_text {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items:flex-end;
+  justify-content:space-between;
+  width: 100%;
+  max-width: 1100px;
+}
+.bottom_text {
+  color:#8996A0;
+}
+.bottom_text_1{
+  width: 260px;
+}
+.bottom_text_img_text{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fafafa;
+  font-size: 30px;
+  font-weight: bold;
+}
+.bottom_text_img_1{
+  width: 80px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.bottom_text_right{
+  width: 260px;
+  display: flex;
+  justify-content:space-between;
 }
 /* -ms-hyphens: auto;
 -webkit-hyphens: auto;
